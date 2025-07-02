@@ -2,6 +2,13 @@
 
 A simple Django-based weather forecast app using OpenWeatherMap API.
 
+<!-- Language and Frameworks -->
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-4.x-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Jinja](https://img.shields.io/badge/Jinja2-TEMPLATE-B41717?style=for-the-badge&logo=jinja&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-Embedded_DB-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+
 ## Features
 
 - Search weather by city name
