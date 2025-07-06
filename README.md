@@ -30,7 +30,7 @@ A simple Django-based weather forecast app using OpenWeatherMap API.
 
 ## Installation
 
-```
+```console
 https://github.com/ridika-2004/Weather-Web-App.git
 cd weatherapp
 pip install -r requirements.txt
@@ -41,7 +41,7 @@ python manage.py runserver
 This app uses OpenWeatherMap API.
 Replace the default key in `views.py` with your own:
 
-```
+```python
 url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=YOUR_API_KEY"
 ```
 
@@ -50,7 +50,7 @@ Make sure your CSS file is in the right place:
 `weather/static/weatherapp/style.css`
 
 In `settings.py`, ensure:
-```
+```python
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 ```
@@ -62,7 +62,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 - Use python `manage.py collectstatic` for deployment.
 
 ## Folder Structure
-```
+```console
 weather/
 ├── weather/
 |   └──.....
